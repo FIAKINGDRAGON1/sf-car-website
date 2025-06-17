@@ -1,0 +1,129 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#navlogo {
+    width: 100px;
+    height: 50px;
+}
+.mechanic-description {
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+}
+.card{
+    border: none !important;
+}
+
+.carousel {
+    width: 70%;
+    margin:0 auto ;
+}
+.carousel img{
+    
+    height: 100px;
+}
+.footer-container {
+    width: 100%;
+    display: flex;
+    
+    
+background-image: url(images/ChatGPT\ Image\ Jun\ 17\,\ 2025\,\ 03_10_55\ PM.png);
+}
+.footer-container hr {
+    border: none;
+    border-top: 1px solid #ccc;
+    width: 70%;
+    margin-left: 15%;
+}
+
+#footer-logo{
+    margin-top: 10%;
+    margin-left: -80%;
+    
+}
+#footer-logo img{
+    width: 30%;
+    
+}
+#footer-logo p{
+    margin-top: 3%;
+    color: white;
+    width: 20em;
+}
+
+.footer-images{
+    width: 30px !important;
+    
+}
+
+#facebook{
+    width: 35px !important;
+}
+#discord{
+    width: 45px !important;
+}
+
+#contactinfo {
+    color: white;
+    margin-top: 10%;
+    margin-left: 5%;
+}
+#contactinfo ul li {
+    list-style: none;
+    margin-left: -30px;
+    margin-top: 5px;
+}
+
+#services {
+    color: white;
+    margin-top: 10%;
+    margin-left: 5%;
+}
+#services ul li {
+    list-style: none;
+    margin-left: -30px;
+    margin-top: 5px;
+}
+
+#legalinfo {
+    color: white;
+    margin-top: 10%;
+    margin-left: 5%;
+}
+#legalinfo ul li {
+    list-style: none;
+    margin-left: -30px;
+    margin-top: 5px;
+}
+#newsletter {
+    color: white;
+    margin-top: 10%;
+    margin-left: 5%;
+    width: 20%;
+}
+#newsletter form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+#newsletter input[type="email"] {
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    width: 200px;
+}
+#newsletter button {
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    width: 200px;
+}
+#newsletter button:hover {
+    background-color: #0056b3;
+}
