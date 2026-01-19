@@ -2,7 +2,35 @@ body{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+
+  background-image: url('images/carbon-fiber-background-i2j5pgqe86x7n5vw.jpg');
+  background-repeat: repeat;
+  background-size: auto;
+  background-attachment: fixed;
+  color: #D1D5DB;
 }
+p,h5{
+    color: #E5E5E5  !important;
+}
+.list-group-item {
+    background: none !important;
+    color: #D1D5DB !important;
+}
+.card{
+    background: none !important;
+}
+.navbar {
+  background: rgba(0, 0, 0, 0.6) !important;
+  backdrop-filter: blur(1px) !important;
+  
+}
+
+.nav-link{
+    color: #D1D5DB !important;
+}
+
+
+
 #navlogo {
     width: 100px;
     height: 50px;
@@ -63,6 +91,7 @@ background-image: url(images/ChatGPT\ Image\ Jun\ 17\,\ 2025\,\ 03_10_55\ PM.png
 }
 #discord{
     width: 45px !important;
+    margin-left: -8px;
 }
 
 #contactinfo {
@@ -137,12 +166,14 @@ background-image: url(images/ChatGPT\ Image\ Jun\ 17\,\ 2025\,\ 03_10_55\ PM.png
     margin-left: -20px;
 } */
 .civic-accord{
+    margin-top: 50px;
     display:flex ;
  justify-content: space-evenly  ;
   
 }
 .card-accord{
-    margin-top: 20px;
+    margin-top: -20px;
+    
 }
 
 
@@ -211,5 +242,21 @@ background-image: url(images/ChatGPT\ Image\ Jun\ 17\,\ 2025\,\ 03_10_55\ PM.png
 .nissanrogue{
     margin-top: 14px;
 }
-
-
+.ram-F150{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    margin-right: 100px;
+}
+.ford-explorer-jeep-wrangler{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 60px;
+    margin-right: 100px;
+}
+.nissan-rogue-chevrolet-equinox{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    margin-right: 100px;
+}
