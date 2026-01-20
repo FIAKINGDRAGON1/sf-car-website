@@ -4,55 +4,82 @@ body {
   background: #0b0b0b;
   color: #e5e5e5;
 }
- body {
-    /* Gradient background from dark gray to lighter gray */
-    background: linear-gradient(180deg,#000000, #4f4f4f);
-    color: white; /* text color */
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-  }
 
-
-.car-section {
+/* HERO */
+.hero {
+  height: 50vh;
+  
   display: flex;
   align-items: center;
-  gap: 40px;
-  padding: 80px 10%;
-  opacity: 1;
-  transform: translateX(0);
-  transition: all 0.8s ease-out;
+  padding: 0 10%;
 }
 
-.car-section img {
-  width: 40%;
+.hero-content h1 {
+  font-size: 3rem;
+  color: #fff;
+}
+
+.hero-content p {
+  font-size: 1.2rem;
+}
+
+.price {
+  color: #e10600;
+  font-weight: bold;
+}
+
+/* SPECS */
+.specs {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  padding: 60px 10%;
+  text-align: center;
+}
+
+.spec {
+  background: #111;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+/* DETAILS */
+.detail {
+  display: flex;
+  gap: 40px;
+  padding: 80px 10%;
+  align-items: center;
+}
+
+.detail.reverse {
+  flex-direction: row-reverse;
+}
+
+.detail img {
+  width: 45%;
   border-radius: 12px;
 }
 
-.text {
-  width: 60%;
+/* SAFETY */
+.safety {
+  padding: 80px 10%;
 }
 
-h2 {
-  color: #ffffff;
-  margin-bottom: 10px;
+.safety ul {
+  list-style: square;
+  padding-left: 20px;
 }
 
-/* Animation starting states */
-
-.fade-right {
-  transform: translateX(80px);
+/* ANIMATIONS */
+.reveal {
+  opacity: 0;
+  transition: all 0.8s ease-out;
 }
 
-.fade-left {
-  transform: translateX(-80px);
-}
+.fade-right { transform: translateX(80px); opacity: 0; }
+.fade-left  { transform: translateX(-80px); opacity: 0; }
+.fade-up    { transform: translateY(80px); opacity: 0; }
 
-.fade-up {
-  transform: translateY(80px);
-}
-
-/* Activated state */
 .show {
   opacity: 1;
   transform: translate(0);

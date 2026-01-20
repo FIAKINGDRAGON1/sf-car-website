@@ -1,4 +1,4 @@
-const sections = document.querySelectorAll('.car-section');
+const sections = document.querySelectorAll('.reveal');
 
 const observer = new IntersectionObserver((entries) => {
   entries.forEach(entry => {
