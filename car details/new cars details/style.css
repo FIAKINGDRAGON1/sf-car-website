@@ -50,6 +50,9 @@ body {
   padding: 80px 10%;
   align-items: center;
 }
+#corolla_cross{
+  width: 60%;
+}
 
 #civicPic{
   width: 80%;
@@ -87,4 +90,43 @@ body {
 .show {
   opacity: 1;
   transform: translate(0);
+}
+
+.dark-btn {
+  margin-left: 45%;
+  padding: 14px 34px;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+
+  color: #ffffff;
+  background: linear-gradient(135deg, #1f8ef1, #0066ff);
+  border: none;
+  border-radius: 30px;
+
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+
+  transition: 
+    transform 0.3s ease,
+    box-shadow 0.3s ease,
+    background 0.3s ease;
+}
+
+/* Hover effect */
+.dark-btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 25px rgba(0, 102, 255, 0.45);
+}
+
+/* Click effect */
+.dark-btn:active {
+  transform: translateY(0);
+  box-shadow: 0 6px 15px rgba(0, 102, 255, 0.3);
+}
+
+#arrow{
+  font-size: 20px;
+  
 }
