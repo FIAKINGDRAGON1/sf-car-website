@@ -3,11 +3,11 @@ body{
     margin: 0;
     box-sizing: border-box;
 
-  background-image: url('images/carbon-fiber-background-i2j5pgqe86x7n5vw.jpg');
+  /* background-image: url('images/background\ image2.webp');
   background-repeat: repeat;
   background-size: auto;
   background-attachment: fixed;
-  color: #D1D5DB;
+  color: #D1D5DB; */
 }
 p,h5{
     color: #E5E5E5  !important;
@@ -79,6 +79,10 @@ background-image: url(images/ChatGPT\ Image\ Jun\ 17\,\ 2025\,\ 03_10_55\ PM.png
     margin-top: 3%;
     color: white;
     width: 20em;
+}
+
+#footer-img{
+    background-color: black;
 }
 
 .footer-images{

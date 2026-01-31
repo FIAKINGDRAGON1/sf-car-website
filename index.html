@@ -9,9 +9,12 @@
         integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="threads_style.css">
 </head>
 
 <body>
+    <canvas id="threads"></canvas>
+    <div class="fade-mask"></div>
 
     <!-- this is navbar section -->
     <section>
@@ -136,7 +139,7 @@
             <hr>
 
             <div id="footer-logo">
-                <img src="images/Untitled-2.png" alt="logo">
+                <img  id="footer-img" src="images/Untitled-2.png" alt="logo">
                 <p>We provide service and prices that are affordable for everyone in this challenging time of world.</p>
 
                 <img class="footer-images" id="facebook" src="images/facebook.png" alt="Facebook">
@@ -203,6 +206,8 @@
 
 
 
+
+    <script src="threads.js"></script>
 
 </body>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
